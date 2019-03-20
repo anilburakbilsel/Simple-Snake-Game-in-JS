@@ -34,7 +34,8 @@
 
         draw(){
             this.context.fillStyle = 'black';
-            this.context,fillReact(0, 0, this.canvas.width, this.canvas.height)''
+            this.context,fillReact(0, 0, this.canvas.width, this.canvas.height);
+            this.context.fillStyle = 'white';
         }
 
 
