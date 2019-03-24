@@ -37,7 +37,9 @@
             this.context,fillReact(0, 0, this.canvas.width, this.canvas.height);
             this.context.fillStyle = 'white';
             this.context.font = '20px Arial';
-            this.context.fillText(this.)
+            this.context.fillText(this.tailSize, 20, 40);
+
+            this.trail.forEach();
         }
 
 
